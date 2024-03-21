@@ -76,16 +76,16 @@ class Ui_Form(object):
         self.gridLayout_3.setObjectName("gridLayout_3")
         # form function button - clear all roi
         self.ClearROIButton = QtWidgets.QPushButton(Form)
-        self.ClearROIButton.setObjectName("ClearROIButton")
+        self.ClearROIButton.setObjectName("ClearROI")
         self.gridLayout_3.addWidget(self.ClearROIButton, 0, 0, 1, 1)
         # form function button - confirm roi and save
         self.confirmROIButton = QtWidgets.QPushButton(Form)
-        self.confirmROIButton.setObjectName("confirmROIButton")
+        self.confirmROIButton.setObjectName("confirmROI")
         self.gridLayout_3.addWidget(self.confirmROIButton, 0, 1, 1, 1)
 
         # form function button - exit
         self.exitButton = QtWidgets.QPushButton(Form)
-        self.exitButton.setObjectName("ExitButton")
+        self.exitButton.setObjectName("Exit")
         self.gridLayout_3.addWidget(self.exitButton, 0, 3, 1, 1)
         # function layout
         self.gridLayout_2.addLayout(self.gridLayout_3, 1, 0, 1, 1)
